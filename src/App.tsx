@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import StockHeatmap from './components/StockHeatmap';
+import StockTreemap from './components/stockTreemap';
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <h1>Stock Heatmap Dashboard</h1>
-      <StockHeatmap />
+      <StockTreemap />
     </div>
   );
 };
